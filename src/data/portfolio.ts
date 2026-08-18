@@ -16,8 +16,59 @@ export const identity = {
   phone: "06 88 21 68 08",
   availability: "Disponible pour opportunités",
   cvPath: "/cv-oumaima-boullam.pdf",
-  photoPath: "/images/photo.jpg", // Remplacez ce fichier par votre photo
+  photoPath: "/images/photo.jpg",
 };
+
+// ============ LOGOS DES TECHNOLOGIES ============
+// Les SVG sont servis depuis public/logos/<slug>.svg
+
+export const techLogos = {
+  html5: { label: "HTML5" },
+  css3: { label: "CSS3" },
+  javascript: { label: "JavaScript" },
+  react: { label: "React" },
+  bootstrap: { label: "Bootstrap" },
+  tailwindcss: { label: "Tailwind CSS" },
+  php: { label: "PHP" },
+  laravel: { label: "Laravel" },
+  python: { label: "Python" },
+  mysql: { label: "MySQL" },
+  mongodb: { label: "MongoDB" },
+  docker: { label: "Docker" },
+  git: { label: "Git" },
+  github: { label: "GitHub" },
+  wordpress: { label: "WordPress" },
+  figma: { label: "Figma" },
+} as const;
+
+export type TechSlug = keyof typeof techLogos;
+
+/** Logos qui gravitent autour du portrait du hero. */
+export const orbitTechs: TechSlug[] = [
+  "react",
+  "laravel",
+  "python",
+  "docker",
+  "javascript",
+  "mysql",
+];
+
+/** Logos du bandeau défilant. */
+export const marqueeTechs: TechSlug[] = [
+  "html5",
+  "css3",
+  "javascript",
+  "react",
+  "bootstrap",
+  "php",
+  "laravel",
+  "python",
+  "mysql",
+  "mongodb",
+  "docker",
+  "git",
+  "wordpress",
+];
 
 export const socials = [
   {
@@ -34,7 +85,7 @@ export const socials = [
   },
 ];
 
-export const heroTechs = ["React", "Laravel", "Python", "Docker"];
+
 
 export const about = {
   paragraphs: [
@@ -49,30 +100,60 @@ export const about = {
   ],
 };
 
-export const skillCategories = [
+export interface Skill {
+  name: string;
+  logo?: TechSlug;
+}
+
+export const skillCategories: { name: string; skills: Skill[] }[] = [
   {
     name: "Frontend",
-    skills: ["HTML5", "CSS3", "JavaScript", "ReactJS", "Bootstrap"],
+    skills: [
+      { name: "HTML5", logo: "html5" },
+      { name: "CSS3", logo: "css3" },
+      { name: "JavaScript", logo: "javascript" },
+      { name: "ReactJS", logo: "react" },
+      { name: "Bootstrap", logo: "bootstrap" },
+    ],
   },
   {
     name: "Backend",
-    skills: ["PHP", "Laravel", "Python", "POO"],
+    skills: [
+      { name: "PHP", logo: "php" },
+      { name: "Laravel", logo: "laravel" },
+      { name: "Python", logo: "python" },
+      { name: "POO" },
+    ],
   },
   {
     name: "Base de données",
-    skills: ["MySQL", "MongoDB", "SQL", "PDO"],
+    skills: [
+      { name: "MySQL", logo: "mysql" },
+      { name: "MongoDB", logo: "mongodb" },
+      { name: "SQL" },
+      { name: "PDO" },
+    ],
   },
   {
     name: "API & Intégration",
-    skills: ["API REST", "Stripe", "Ollama"],
+    skills: [{ name: "API REST" }, { name: "Stripe" }, { name: "Ollama" }],
   },
   {
     name: "DevOps & Outils",
-    skills: ["Docker", "Git", "GitHub", "cPanel"],
+    skills: [
+      { name: "Docker", logo: "docker" },
+      { name: "Git", logo: "git" },
+      { name: "GitHub", logo: "github" },
+      { name: "cPanel" },
+    ],
   },
   {
     name: "CMS & Autres",
-    skills: ["WordPress", "SEO", "Notions en cybersécurité"],
+    skills: [
+      { name: "WordPress", logo: "wordpress" },
+      { name: "SEO" },
+      { name: "Notions en cybersécurité" },
+    ],
   },
 ];
 
