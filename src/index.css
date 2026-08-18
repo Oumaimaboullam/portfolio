@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,55 +6,58 @@
 
 @layer base {
   :root {
-    --background: 40 20% 97%;
-    --foreground: 240 10% 8%;
+    /* Palette beige & blanc */
+    --background: 40 38% 97%;
+    --foreground: 28 18% 14%;
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 8%;
+    --card-foreground: 28 18% 14%;
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 8%;
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 40 12% 93%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 40 12% 93%;
-    --muted-foreground: 240 4% 42%;
-    --accent: 40 12% 93%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 6% 88%;
-    --input: 240 6% 88%;
-    --ring: 36 70% 50%;
-    --radius: 0.625rem;
+    --popover-foreground: 28 18% 14%;
+    --primary: 28 18% 14%;
+    --primary-foreground: 40 38% 97%;
+    --secondary: 38 32% 93%;
+    --secondary-foreground: 28 18% 14%;
+    --muted: 38 32% 93%;
+    --muted-foreground: 30 10% 42%;
+    --accent: 36 34% 90%;
+    --accent-foreground: 28 18% 14%;
+    --destructive: 0 60% 48%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 35 26% 88%;
+    --input: 35 26% 88%;
+    --ring: 30 32% 55%;
+    --radius: 0.875rem;
 
-    /* Couleur d'accent unique : ambre doré */
-    --brand: 36 78% 48%;
-    --brand-foreground: 240 10% 6%;
+    /* Accent unique : sable chaud */
+    --brand: 30 34% 52%;
+    --brand-foreground: 40 40% 98%;
+    --sand: 36 40% 84%;
   }
 
   .dark {
-    --background: 240 8% 6%;
-    --foreground: 40 15% 95%;
-    --card: 240 7% 9%;
-    --card-foreground: 40 15% 95%;
-    --popover: 240 7% 9%;
-    --popover-foreground: 40 15% 95%;
-    --primary: 40 15% 95%;
-    --primary-foreground: 240 8% 6%;
-    --secondary: 240 5% 14%;
-    --secondary-foreground: 40 15% 95%;
-    --muted: 240 5% 14%;
-    --muted-foreground: 240 5% 62%;
-    --accent: 240 5% 14%;
-    --accent-foreground: 40 15% 95%;
-    --destructive: 0 62.8% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5% 16%;
-    --input: 240 5% 16%;
-    --ring: 36 78% 55%;
+    --background: 28 14% 8%;
+    --foreground: 40 30% 94%;
+    --card: 28 12% 11%;
+    --card-foreground: 40 30% 94%;
+    --popover: 28 12% 11%;
+    --popover-foreground: 40 30% 94%;
+    --primary: 40 30% 94%;
+    --primary-foreground: 28 14% 8%;
+    --secondary: 28 10% 16%;
+    --secondary-foreground: 40 30% 94%;
+    --muted: 28 10% 16%;
+    --muted-foreground: 36 12% 66%;
+    --accent: 28 10% 18%;
+    --accent-foreground: 40 30% 94%;
+    --destructive: 0 55% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 10% 20%;
+    --input: 30 10% 20%;
+    --ring: 32 45% 62%;
 
-    --brand: 38 85% 58%;
-    --brand-foreground: 240 10% 6%;
+    --brand: 32 48% 66%;
+    --brand-foreground: 28 20% 10%;
+    --sand: 30 20% 26%;
   }
 
   * {
@@ -71,30 +74,60 @@
   }
 
   .font-display {
-    font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+    font-family: 'Fraunces', 'Inter', Georgia, serif;
+    font-optical-sizing: auto;
   }
 
   ::selection {
-    background: hsl(var(--brand) / 0.3);
+    background: hsl(var(--brand) / 0.25);
   }
 
   :focus-visible {
     outline: 2px solid hsl(var(--brand));
     outline-offset: 3px;
-    border-radius: 4px;
+    border-radius: 6px;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(120deg, hsl(var(--brand)) 0%, hsl(var(--brand) / 0.65) 100%);
+    background: linear-gradient(100deg, hsl(var(--brand)) 0%, hsl(28 24% 32%) 55%, hsl(var(--brand)) 100%);
+    background-size: 220% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: gradient-pan 9s ease-in-out infinite;
+  }
+
+  /* Fond beige texturé (grain fin + voiles sable) */
+  .grain::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.35;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+    mix-blend-mode: multiply;
   }
 }
 
 /* ============ ANIMATIONS ============ */
+
+@keyframes gradient-pan {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Voiles sable qui respirent en arrière-plan */
+@keyframes aurora {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  33% { transform: translate3d(4%, -3%, 0) scale(1.08); }
+  66% { transform: translate3d(-3%, 4%, 0) scale(0.96); }
+}
+.aurora {
+  animation: aurora 18s ease-in-out infinite;
+}
 
 /* Révélation au scroll */
 .reveal {
@@ -112,62 +145,109 @@
 
 /* Entrée du Hero */
 @keyframes hero-in {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 .hero-item {
   opacity: 0;
   animation: hero-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
-/* Badges tech flottants */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
+/* Nom du hero : lettres qui se posent une à une */
+@keyframes letter-in {
+  from { opacity: 0; transform: translateY(0.5em) rotate(6deg); filter: blur(6px); }
+  to { opacity: 1; transform: translateY(0) rotate(0); filter: blur(0); }
 }
-.hero-badge {
-  animation: float 4s ease-in-out infinite;
+.letter {
+  display: inline-block;
+  opacity: 0;
+  animation: letter-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
-/* Anneau du portrait */
+/* Portrait : cadre sable qui respire */
 @keyframes ring-pulse {
-  0%, 100% {
-    opacity: 0.5;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.015);
-  }
+  0%, 100% { opacity: 0.55; transform: scale(1) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.02) rotate(1.5deg); }
 }
 .hero-ring {
-  animation: ring-pulse 5s ease-in-out infinite;
+  animation: ring-pulse 7s ease-in-out infinite;
+}
+
+/* Logos en orbite autour du portrait */
+@keyframes orbit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes orbit-counter {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+.orbit-track {
+  animation: orbit var(--orbit-duration, 26s) linear infinite;
+}
+.orbit-item {
+  animation: orbit-counter var(--orbit-duration, 26s) linear infinite;
+}
+.orbit-paused:hover .orbit-track,
+.orbit-paused:hover .orbit-item {
+  animation-play-state: paused;
+}
+
+/* Bandeau de logos défilant */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee var(--marquee-duration, 38s) linear infinite;
+}
+.marquee-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+}
+.marquee-mask:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Logo qui prend ses couleurs au survol */
+.logo-tint {
+  filter: grayscale(1) contrast(0.85) opacity(0.55);
+  transition: filter 0.45s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.group:hover .logo-tint,
+.logo-tint:hover {
+  filter: none;
+  transform: translateY(-3px) scale(1.08);
+}
+
+/* Carte : halo qui suit le curseur */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(
+    360px circle at var(--mx, 50%) var(--my, 50%),
+    hsl(var(--brand) / 0.14),
+    transparent 65%
+  );
+}
+.spotlight:hover::before {
+  opacity: 1;
 }
 
 /* Indicateur de scroll */
 @keyframes scroll-dot {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  70% {
-    transform: translateY(12px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 0;
-  }
+  0% { transform: translateY(0); opacity: 1; }
+  70% { transform: translateY(12px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 0; }
 }
 .scroll-indicator > div {
   animation: scroll-dot 1.8s ease-in-out infinite;
@@ -200,14 +280,8 @@
   to { opacity: 1; }
 }
 @keyframes panel-in {
-  from {
-    opacity: 0;
-    transform: translateY(32px) scale(0.98);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
+  from { opacity: 0; transform: translateY(32px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 .modal-backdrop {
   animation: backdrop-in 0.3s ease-out;
@@ -230,7 +304,11 @@
     opacity: 1;
     transform: none;
   }
-  .hero-item {
+  .hero-item,
+  .letter {
     opacity: 1;
+  }
+  .logo-tint {
+    filter: none;
   }
 }

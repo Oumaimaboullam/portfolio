@@ -4,7 +4,7 @@ import { experiences } from "@/data/portfolio";
 
 export default function Experience() {
   return (
-    <section id="experience" className="scroll-mt-24 border-y border-border bg-card/40 py-24 md:py-32">
+    <section id="experience" className="scroll-mt-24 border-y border-border bg-secondary/40 py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading kicker="Parcours" title="Expérience" />
 

@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollProgress from "@/components/ScrollProgress";
+import LogoMarquee from "@/components/LogoMarquee";
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import Skills from "@/sections/Skills";
@@ -11,10 +13,12 @@ import Contact from "@/sections/Contact";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground antialiased">
+    <div className="grain relative min-h-screen bg-background text-foreground antialiased">
+      <ScrollProgress />
       <Navbar />
-      <main>
+      <main className="relative z-10">
         <Hero />
+        <LogoMarquee />
         <About />
         <Skills />
         <Projects />
