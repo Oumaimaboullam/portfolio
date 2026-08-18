@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+<defs><radialGradient id="g-7c5cff"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.9"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/></radialGradient><radialGradient id="g-22d3ee"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0.95"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#0a0b12" />
+<rect x="0" y="0" width="1600" height="64" rx="0" fill="#12141f" />
+<line x1="0" y1="64" x2="1600" y2="64" stroke="#242838" />
+<circle cx="36" cy="32" r="7" fill="#f87171" opacity="0.8" />
+<circle cx="60" cy="32" r="7" fill="#f6b352" opacity="0.8" />
+<circle cx="84" cy="32" r="7" fill="#34d399" opacity="0.8" />
+<rect x="120" y="16" width="620" height="32" rx="16" fill="#0a0b12" stroke="#242838" />
+<circle cx="140" cy="32" r="4" fill="#7c5cff" />
+<text x="156" y="38" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">codelens.app/analyse</text>
+<rect x="1380" y="16" width="88" height="32" rx="16" fill="#171a28" stroke="#242838" />
+<text x="1424" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="500" fill="#34d399" text-anchor="middle">Live</text>
+<circle cx="1522" cy="32" r="16" fill="#171a28" />
+<text x="1522" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#858ca6" text-anchor="middle">OB</text>
+<rect x="0" y="64" width="240" height="936" rx="0" fill="#12141f" />
+<line x1="240" y1="64" x2="240" y2="1000" stroke="#242838" />
+<circle cx="42" cy="116" r="4" fill="#858ca6" opacity="0.5" />
+<text x="62" y="121" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Tableau de bord</text>
+<rect x="16" y="148" width="208" height="40" rx="12" fill="#7c5cff22" />
+<rect x="16" y="148" width="3" height="40" rx="2" fill="#7c5cff" />
+<circle cx="42" cy="168" r="4" fill="#7c5cff" opacity="1" />
+<text x="62" y="173" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="500" fill="#e8eaf6" text-anchor="start">Analyser</text>
+<circle cx="42" cy="220" r="4" fill="#858ca6" opacity="0.5" />
+<text x="62" y="225" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Historique</text>
+<circle cx="42" cy="272" r="4" fill="#858ca6" opacity="0.5" />
+<text x="62" y="277" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Abonnement</text>
+<circle cx="42" cy="324" r="4" fill="#858ca6" opacity="0.5" />
+<text x="62" y="329" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Paramètres</text>
+<circle cx="1200" cy="200" r="420" fill="url(#g-7c5cff)" opacity="0.16" />
+<rect x="280" y="96" width="700" height="620" rx="18" fill="#12141f" stroke="#242838" />
+<text x="304" y="132" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">main.py — code soumis</text>
+<circle cx="952" cy="126" r="3" fill="#7c5cff" />
+<rect x="304" y="140" width="652" height="552" rx="12" fill="#0a0b12" stroke="#242838" />
+<text x="318" y="180" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">1</text>
+<text x="340" y="180" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#22d3ee" text-anchor="start">def moyenne(notes):</text>
+<text x="318" y="210" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">2</text>
+<text x="340" y="210" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">    total = 0</text>
+<text x="318" y="240" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">3</text>
+<text x="340" y="240" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">    for i in range(len(notes)):</text>
+<text x="318" y="270" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">4</text>
+<text x="340" y="270" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">        total += notes[i]</text>
+<text x="318" y="300" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">5</text>
+<text x="340" y="300" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">    return total / len(notes)</text>
+<text x="318" y="330" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">6</text>
+<text x="340" y="330" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start"></text>
+<text x="318" y="360" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">7</text>
+<text x="340" y="360" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">notes = []</text>
+<text x="318" y="390" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">8</text>
+<text x="340" y="390" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#f6b352" text-anchor="start">print(moyenne(notes))</text>
+<text x="318" y="420" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">9</text>
+<text x="340" y="420" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start"></text>
+<text x="318" y="450" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">10</text>
+<text x="340" y="450" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#858ca6" text-anchor="start"># ZeroDivisionError si la liste</text>
+<text x="318" y="480" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">11</text>
+<text x="340" y="480" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#858ca6" text-anchor="start"># est vide -&gt; corrigé ci-dessous</text>
+<text x="318" y="510" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">12</text>
+<text x="340" y="510" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start"></text>
+<text x="318" y="540" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">13</text>
+<text x="340" y="540" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#34d399" text-anchor="start">def moyenne_v2(notes):</text>
+<text x="318" y="570" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">14</text>
+<text x="340" y="570" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#34d399" text-anchor="start">    if not notes:</text>
+<text x="318" y="600" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">15</text>
+<text x="340" y="600" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#34d399" text-anchor="start">        return 0</text>
+<text x="318" y="630" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">16</text>
+<text x="340" y="630" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#34d399" text-anchor="start">    return sum(notes) / len(notes)</text>
+<rect x="304" y="200" width="652" height="30" rx="6" fill="#f6b35214" />
+<rect x="1010" y="96" width="560" height="400" rx="18" fill="#12141f" stroke="#242838" />
+<text x="1034" y="132" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Analyse de l'IA · Ollama</text>
+<circle cx="1542" cy="126" r="3" fill="#22d3ee" />
+<rect x="1034" y="140" width="512" height="84" rx="14" fill="#171a28" stroke="#242838" />
+<text x="1058" y="176" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="500" fill="#858ca6" text-anchor="start">Qualité du code</text>
+<text x="1058" y="206" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="26" font-weight="700" fill="#e8eaf6" text-anchor="start">72 / 100</text>
+<rect x="1240" y="168" width="280" height="10" rx="5" fill="#0a0b12" />
+<rect x="1240" y="168" width="202" height="10" rx="5" fill="#22d3ee" />
+<text x="1034" y="262" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="600" fill="#e8eaf6" text-anchor="start">3 problèmes détectés</text>
+<rect x="1034" y="278" width="512" height="64" rx="12" fill="#f8717112" />
+<circle cx="1058" cy="302" r="5" fill="#f87171" />
+<text x="1076" y="300" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#e8eaf6" text-anchor="start">Division par zéro ligne 5</text>
+<text x="1076" y="324" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="400" fill="#858ca6" text-anchor="start">Ajouter une garde sur la liste vide</text>
+<rect x="1034" y="352" width="512" height="64" rx="12" fill="#f6b35212" />
+<circle cx="1058" cy="376" r="5" fill="#f6b352" />
+<text x="1076" y="374" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#e8eaf6" text-anchor="start">Boucle non pythonique ligne 3</text>
+<text x="1076" y="398" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="400" fill="#858ca6" text-anchor="start">Préférer sum(notes)</text>
+<rect x="1034" y="426" width="512" height="52" rx="12" fill="#34d39912" />
+<circle cx="1058" cy="452" r="5" fill="#34d399" />
+<text x="1076" y="457" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#e8eaf6" text-anchor="start">Nommage des variables conforme PEP8</text>
+<rect x="1010" y="520" width="560" height="196" rx="18" fill="#12141f" stroke="#242838" />
+<text x="1034" y="556" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Suggestions générées</text>
+<circle cx="1542" cy="550" r="3" fill="#34d399" />
+<text x="1034" y="596" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">· Utiliser sum() au lieu d'une boucle manuelle</text>
+<text x="1034" y="626" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">· Gérer le cas d'une liste vide</text>
+<text x="1034" y="656" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">· Ajouter un test unitaire sur moyenne_v2()</text>
+<text x="1034" y="686" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">· Documenter la fonction (docstring)</text>
+<rect x="280" y="740" width="1290" height="200" rx="18" fill="#12141f" stroke="#242838" />
+<text x="304" y="786" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Pipeline d'analyse</text>
+<rect x="304" y="812" width="164" height="28" rx="14" fill="#22d3ee1f" />
+<text x="386.0" y="831" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#22d3ee" text-anchor="middle">Upload du fichier</text>
+<rect x="474" y="812" width="156" height="28" rx="14" fill="#7c5cff1f" />
+<text x="552.0" y="831" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#7c5cff" text-anchor="middle">Conteneur Docker</text>
+<rect x="644" y="812" width="132" height="28" rx="14" fill="#7c5cff1f" />
+<text x="710.0" y="831" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#7c5cff" text-anchor="middle">Modèle Ollama</text>
+<rect x="794" y="812" width="124" height="28" rx="14" fill="#34d3991f" />
+<text x="856.0" y="831" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#34d399" text-anchor="middle">Rapport JSON</text>
+<rect x="944" y="812" width="188" height="28" rx="14" fill="#f6b3521f" />
+<text x="1038.0" y="831" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#f6b352" text-anchor="middle">Crédit Stripe débité</text>
+<text x="304" y="890" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Temps d'analyse moyen : 6 s · 128 analyses ce mois · API REST /api/v1/analyze</text>
+</svg>

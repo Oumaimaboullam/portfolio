@@ -2,6 +2,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 import LogoMarquee from "@/components/LogoMarquee";
+import CustomCursor from "@/components/CustomCursor";
+import SectionRail from "@/components/SectionRail";
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import Skills from "@/sections/Skills";
@@ -13,8 +15,10 @@ import Contact from "@/sections/Contact";
 
 export default function Home() {
   return (
-    <div className="grain relative min-h-screen bg-background text-foreground antialiased">
+    <div className="noise relative min-h-screen bg-background text-foreground antialiased">
+      <CustomCursor />
       <ScrollProgress />
+      <SectionRail />
       <Navbar />
       <main className="relative z-10">
         <Hero />

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+<defs><radialGradient id="g-f6b352"><stop offset="0%" stop-color="#f6b352" stop-opacity="0.9"/><stop offset="100%" stop-color="#f6b352" stop-opacity="0"/></radialGradient><radialGradient id="g-34d399"><stop offset="0%" stop-color="#34d399" stop-opacity="0.9"/><stop offset="100%" stop-color="#34d399" stop-opacity="0"/></radialGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0.95"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#0a0b12" />
+<rect x="0" y="0" width="1600" height="64" rx="0" fill="#12141f" />
+<line x1="0" y1="64" x2="1600" y2="64" stroke="#242838" />
+<circle cx="36" cy="32" r="7" fill="#f87171" opacity="0.8" />
+<circle cx="60" cy="32" r="7" fill="#f6b352" opacity="0.8" />
+<circle cx="84" cy="32" r="7" fill="#34d399" opacity="0.8" />
+<rect x="120" y="16" width="620" height="32" rx="16" fill="#0a0b12" stroke="#242838" />
+<circle cx="140" cy="32" r="4" fill="#f6b352" />
+<text x="156" y="38" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">python · smile_detect.py — OpenCV</text>
+<rect x="1380" y="16" width="88" height="32" rx="16" fill="#171a28" stroke="#242838" />
+<text x="1424" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="500" fill="#34d399" text-anchor="middle">Live</text>
+<circle cx="1522" cy="32" r="16" fill="#171a28" />
+<text x="1522" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#858ca6" text-anchor="middle">OB</text>
+<circle cx="500" cy="400" r="420" fill="url(#g-f6b352)" opacity="0.12" />
+<rect x="60" y="110" width="900" height="620" rx="18" fill="#12141f" stroke="#242838" />
+<text x="84" y="146" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Flux caméra · 30 fps</text>
+<circle cx="932" cy="140" r="3" fill="#f6b352" />
+<rect x="84" y="154" width="852" height="552" rx="14" fill="#0d0f18" />
+<circle cx="510" cy="420" r="170" fill="#171a28" />
+<circle cx="510" cy="420" r="170" fill="#f6b352" opacity="0.08" />
+<circle cx="455" cy="385" r="14" fill="#e8eaf6" opacity="0.85" />
+<circle cx="565" cy="385" r="14" fill="#e8eaf6" opacity="0.85" />
+<path d="M440 470 Q510 545 580 470" fill="none" stroke="#f6b352" stroke-width="10" stroke-linecap="round"/>
+<rect x="330" y="240" width="360" height="360" rx="8" fill="none" stroke="#34d399" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="330" y="206" width="214" height="32" rx="8" fill="#34d399" />
+<text x="340" y="228" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="700" fill="#0a0b12" text-anchor="start">sourire · 94,6 %</text>
+<text x="110" y="190" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="700" fill="#f87171" text-anchor="start">REC ●</text>
+<text x="110" y="690" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">haarcascade_frontalface + smile · seuil 0.55</text>
+<rect x="990" y="110" width="550" height="300" rx="18" fill="#12141f" stroke="#242838" />
+<text x="1014" y="146" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Confiance en temps réel</text>
+<circle cx="1512" cy="140" r="3" fill="#34d399" />
+<path d="M1020.0,370.0 L1081.2,347.5 L1142.5,305.0 L1203.8,325.0 L1265.0,260.0 L1326.2,240.0 L1387.5,272.5 L1448.8,205.0 L1510.0,190.0 L1510.0,370 L1020.0,370 Z" fill="url(#area)" />
+<path d="M1020.0,370.0 L1081.2,347.5 L1142.5,305.0 L1203.8,325.0 L1265.0,260.0 L1326.2,240.0 L1387.5,272.5 L1448.8,205.0 L1510.0,190.0" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="1020.0" cy="370.0" r="4" fill="#22d3ee" />
+<circle cx="1142.5" cy="305.0" r="4" fill="#22d3ee" />
+<circle cx="1265.0" cy="260.0" r="4" fill="#22d3ee" />
+<circle cx="1387.5" cy="272.5" r="4" fill="#22d3ee" />
+<circle cx="1510.0" cy="190.0" r="4" fill="#22d3ee" />
+<rect x="990" y="430" width="550" height="300" rx="18" fill="#12141f" stroke="#242838" />
+<text x="1014" y="466" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Statistiques de la session</text>
+<circle cx="1512" cy="460" r="3" fill="#22d3ee" />
+<text x="1014" y="500" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Images traitées</text>
+<text x="1516" y="500" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="end">5 412</text>
+<text x="1014" y="546" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Visages détectés</text>
+<text x="1516" y="546" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="end">5 388</text>
+<text x="1014" y="592" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Sourires détectés</text>
+<text x="1516" y="592" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#34d399" text-anchor="end">2 041</text>
+<text x="1014" y="638" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Confiance moyenne</text>
+<text x="1516" y="638" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="end">88,3 %</text>
+<text x="1014" y="684" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Latence par image</text>
+<text x="1516" y="684" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#22d3ee" text-anchor="end">12 ms</text>
+<rect x="60" y="754" width="1480" height="190" rx="18" fill="#12141f" stroke="#242838" />
+<text x="84" y="790" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Console</text>
+<circle cx="1512" cy="784" r="3" fill="#7c5cff" />
+<text x="88" y="822" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="12" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">1</text>
+<text x="110" y="822" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#34d399" text-anchor="start">$ python smile_detect.py --source 0 --threshold 0.55</text>
+<text x="88" y="854" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="12" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">2</text>
+<text x="110" y="854" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">[INFO] modèle chargé · haarcascade_smile.xml</text>
+<text x="88" y="886" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="12" font-weight="400" fill="#858ca6" text-anchor="end" opacity="0.5">3</text>
+<text x="110" y="886" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">[FRAME 5412] visage (330,240,360,360) · sourire 94.6% · 12 ms</text>
+</svg>
