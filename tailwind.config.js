@@ -52,7 +52,9 @@ module.exports = {
           DEFAULT: "hsl(var(--brand) / <alpha-value>)",
           foreground: "hsl(var(--brand-foreground) / <alpha-value>)",
         },
-        sand: "hsl(var(--sand) / <alpha-value>)",
+        "brand-2": "hsl(var(--brand-2) / <alpha-value>)",
+        "brand-3": "hsl(var(--brand-3) / <alpha-value>)",
+        glass: "hsl(var(--glass) / <alpha-value>)",
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",

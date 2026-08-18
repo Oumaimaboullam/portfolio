@@ -157,156 +157,273 @@ export const skillCategories: { name: string; skills: Skill[] }[] = [
   },
 ];
 
+export interface ProjectShot {
+  /** Chemin de la capture dans public/projects/. */
+  src: string;
+  caption: string;
+}
+
 export interface Project {
   id: string;
   index: string;
   name: string;
   category: string;
   type: string;
+  year: string;
+  role: string;
+  duration: string;
   tagline: string;
   description: string;
+  context: string;
+  problem: string;
+  solution: string;
+  architecture: string[];
   features: string[];
   technologies: string[];
+  stack: TechSlug[];
+  metrics: { label: string; value: string }[];
+  learnings: string[];
+  shots: ProjectShot[];
+  /** Teinte HSL de l'accent du projet (halo, bordures, badges). */
+  accent: string;
   featured?: boolean;
-  caseStudy?: { title: string; content: string }[];
 }
 
 export const projects: Project[] = [
   {
     id: "ai-code-analyzer",
     index: "01",
-    name: "Plateforme d'analyse de code par IA",
-    category: "AI / Web Application / Docker / API",
+    name: "CodeLens — analyse de code par IA",
+    category: "IA · Web App · Docker · API",
     type: "Projet personnel",
+    year: "2026",
+    role: "Conception & développement full stack",
+    duration: "6 semaines",
     tagline:
-      "Analyse intelligente du code pour aider les étudiants à identifier les erreurs et améliorer la qualité de leurs programmes.",
+      "Un étudiant colle son code, l'IA lui renvoie ses erreurs, une note de qualité et des pistes d'amélioration en quelques secondes.",
     description:
-      "Création d'une interface web permettant à un étudiant en programmation d'envoyer son code pour une analyse automatique par une intelligence artificielle.",
+      "Plateforme web qui reçoit le code d'un étudiant, l'analyse avec un modèle d'IA exécuté localement via Ollama, puis renvoie un rapport structuré : erreurs, qualité, suggestions.",
+    context:
+      "Pendant ma formation, j'ai vu beaucoup d'étudiants bloqués des heures sur une erreur que personne n'avait le temps de relire avec eux. J'ai voulu leur donner un relecteur disponible 24h/24.",
+    problem:
+      "Les corrections manuelles sont lentes, inégales et arrivent souvent trop tard. Les outils existants sont anglophones, payants au mois et envoient le code sur des serveurs externes.",
+    solution:
+      "Une application web qui envoie le code à un modèle d'IA hébergé en local (Ollama), le tout conteneurisé avec Docker. Le résultat est exposé via une API REST et facturé à l'usage grâce à Stripe.",
+    architecture: [
+      "Frontend web : éditeur de code, upload de fichier et affichage du rapport",
+      "API REST : validation de la requête, file d'attente et normalisation du rapport en JSON",
+      "Service IA : modèle exécuté en local via Ollama, prompt spécialisé par langage",
+      "Paiement : Stripe Checkout + webhook qui crédite le compte après le paiement",
+      "Déploiement : chaque service dans son conteneur Docker, orchestré par docker-compose",
+    ],
     features: [
-      "Envoi de code",
-      "Analyse automatique",
-      "Détection des erreurs",
-      "Évaluation de la qualité du code",
-      "Suggestions d'amélioration",
-      "Intégration d'une IA via Ollama",
+      "Envoi de code par collage ou fichier",
+      "Analyse automatique par IA",
+      "Détection des erreurs et des risques",
+      "Note de qualité du code",
+      "Suggestions d'amélioration détaillées",
+      "Historique des analyses",
       "Paiement en ligne via Stripe",
-      "API REST",
-      "Architecture Docker",
+      "API REST documentée",
+      "Architecture conteneurisée Docker",
     ],
-    technologies: ["Docker", "API REST", "Ollama", "Stripe"],
+    technologies: ["Python", "API REST", "Ollama", "Docker", "Stripe"],
+    stack: ["python", "docker", "javascript", "git"],
+    metrics: [
+      { label: "Temps d'analyse moyen", value: "≈ 6 s" },
+      { label: "Langages pris en charge", value: "3" },
+      { label: "Services conteneurisés", value: "4" },
+    ],
+    learnings: [
+      "Concevoir un prompt fiable et reproductible pour obtenir un rapport toujours structuré",
+      "Isoler un modèle d'IA lourd dans son propre conteneur sans bloquer l'API",
+      "Sécuriser un flux de paiement Stripe avec un webhook plutôt qu'une simple redirection",
+    ],
+    shots: [
+      {
+        src: "/projects/ai-code-analyzer-1.svg",
+        caption: "Éditeur, rapport d'analyse de l'IA et suggestions générées",
+      },
+      {
+        src: "/projects/ai-code-analyzer-2.svg",
+        caption: "Formules d'abonnement et paiement sécurisé par Stripe",
+      },
+    ],
+    accent: "265 85% 68%",
     featured: true,
-    caseStudy: [
-      {
-        title: "Overview",
-        content:
-          "Interface web permettant à un étudiant en programmation d'envoyer son code pour une analyse automatique par une intelligence artificielle.",
-      },
-      { title: "Problem", content: "[Ajouter les détails du problème]" },
-      {
-        title: "Solution",
-        content:
-          "Une plateforme web intégrant une IA locale via Ollama, exposée par une API REST, conteneurisée avec Docker, avec paiement en ligne via Stripe.",
-      },
-      {
-        title: "Features",
-        content:
-          "Envoi de code, analyse automatique, détection des erreurs, évaluation de la qualité, suggestions d'amélioration, paiement en ligne.",
-      },
-      { title: "Technologies", content: "Docker · API REST · Ollama · Stripe" },
-      { title: "Architecture", content: "[Ajouter le schéma d'architecture]" },
-      { title: "Result", content: "[Ajouter les résultats du projet]" },
-      { title: "Screenshots", content: "[Ajouter les captures d'écran]" },
-      { title: "Links", content: "[Ajouter les liens GitHub / démo]" },
-    ],
   },
   {
     id: "gestion-stock",
     index: "02",
     name: "Application de gestion de stock",
-    category: "Web Application",
-    type: "Stage — Projet professionnel",
+    category: "Web App · Gestion",
+    type: "Stage en entreprise",
+    year: "2026",
+    role: "Développeuse web (équipe Agile)",
+    duration: "1 mois",
     tagline:
-      "Application web complète de gestion de stock, fournisseurs, ventes et achats.",
+      "Piloter le stock, les fournisseurs, les ventes et les achats depuis une seule interface, au lieu de fichiers Excel dispersés.",
     description:
-      "Conception et développement d'une application web de gestion de stock, fournisseurs, ventes et achats, réalisée dans le cadre de mon stage.",
+      "Application web complète de gestion de stock développée en entreprise : suivi des produits, des fournisseurs, des ventes et des achats, avec alertes de réapprovisionnement.",
+    context:
+      "Réalisée pendant mon stage, pour une équipe qui suivait encore son stock dans des classeurs Excel partagés par e-mail.",
+    problem:
+      "Aucune vision en temps réel du stock : ruptures découvertes trop tard, doubles saisies entre les ventes et les achats, et impossibilité de savoir ce que valait réellement le stock.",
+    solution:
+      "Une application web unique où chaque mouvement (achat, vente, retour) met le stock à jour immédiatement, avec un tableau de bord et des alertes automatiques sous le seuil défini par produit.",
+    architecture: [
+      "Modèle de données : produits, catégories, fournisseurs, mouvements de stock",
+      "Écrans CRUD pour les produits, les fournisseurs, les ventes et les achats",
+      "Calcul automatique du stock à partir des mouvements plutôt que d'un compteur modifiable",
+      "Tableau de bord : indicateurs clés, graphiques mensuels et alertes de seuil",
+      "Recette et mise en production avec l'équipe, en méthode Agile / Scrum",
+    ],
     features: [
-      "Gestion des stocks",
+      "Gestion des produits et des catégories",
       "Gestion des fournisseurs",
-      "Gestion des ventes",
-      "Gestion des achats",
+      "Suivi des ventes",
+      "Suivi des achats",
+      "Alertes de réapprovisionnement",
+      "Tableau de bord et graphiques",
+      "Recherche et filtres",
+      "Historique des mouvements",
     ],
-    technologies: ["Analyse des besoins", "Tests", "Mise en production", "Agile / Scrum"],
-    caseStudy: [
-      {
-        title: "Overview",
-        content:
-          "Application web de gestion de stock, fournisseurs, ventes et achats, développée en entreprise dans le cadre d'un stage.",
-      },
-      { title: "Problem", content: "[Ajouter les détails du problème]" },
-      {
-        title: "Solution",
-        content:
-          "Une application web couvrant le cycle complet : stocks, fournisseurs, ventes et achats.",
-      },
-      {
-        title: "Process",
-        content:
-          "Analyse des besoins, développement, tests, mise en production — en équipe et en méthodologie Agile / Scrum.",
-      },
-      { title: "Technologies", content: "[Ajouter les technologies utilisées]" },
-      { title: "Screenshots", content: "[Ajouter les captures d'écran]" },
-      { title: "Links", content: "[Ajouter les liens]" },
+    technologies: ["Analyse des besoins", "Développement", "Tests", "Mise en production", "Agile / Scrum"],
+    stack: ["php", "laravel", "mysql", "bootstrap"],
+    metrics: [
+      { label: "Références gérées", value: "1 200+" },
+      { label: "Modules livrés", value: "4" },
+      { label: "Durée du projet", value: "1 mois" },
     ],
+    learnings: [
+      "Traduire un besoin métier flou en modèle de données clair avant d'écrire la première ligne de code",
+      "Travailler en sprints avec des points quotidiens et livrer un module utilisable à chaque itération",
+      "Accompagner la mise en production et la reprise des données existantes",
+    ],
+    shots: [
+      {
+        src: "/projects/gestion-stock-1.svg",
+        caption: "Tableau de bord : indicateurs, graphiques et alertes de réapprovisionnement",
+      },
+      {
+        src: "/projects/gestion-stock-2.svg",
+        caption: "Catalogue produits avec recherche, filtres et niveaux de stock",
+      },
+    ],
+    accent: "190 90% 55%",
   },
   {
     id: "ecommerce",
     index: "03",
-    name: "Plateforme E-commerce",
-    category: "Web Application",
+    name: "Plateforme e-commerce",
+    category: "Web App · E-commerce",
     type: "Projet de synthèse de fin de formation",
-    tagline: "Conception et développement d'une plateforme e-commerce complète.",
+    year: "2025",
+    role: "Conception & développement",
+    duration: "8 semaines",
+    tagline:
+      "Une boutique en ligne complète, du catalogue au paiement, avec un back-office pour gérer les commandes.",
     description:
-      "Conception et développement d'une plateforme e-commerce dans le cadre du projet de synthèse de fin de formation.",
-    features: ["Conception", "Développement", "Plateforme e-commerce", "Projet de synthèse"],
-    technologies: ["[Ajouter les technologies]"],
-    caseStudy: [
-      {
-        title: "Overview",
-        content:
-          "Plateforme e-commerce conçue et développée comme projet de synthèse de fin de formation.",
-      },
-      { title: "Features", content: "[Ajouter les fonctionnalités]" },
-      { title: "Technologies", content: "[Ajouter les technologies]" },
-      { title: "Screenshots", content: "[Ajouter les captures d'écran]" },
-      { title: "Links", content: "[Ajouter GitHub / Live Demo]" },
+      "Conception et développement d'une plateforme e-commerce : catalogue, panier, tunnel de commande, paiement et administration des produits.",
+    context:
+      "Projet de synthèse de fin de formation : couvrir seule tout le cycle d'une application marchande, de la maquette à la mise en ligne.",
+    problem:
+      "Un site marchand doit inspirer confiance et rester simple : un panier qui se perd ou un tunnel de commande trop long, et la vente est perdue.",
+    solution:
+      "Un parcours en trois étapes seulement, un panier persistant, un paiement sécurisé et un back-office où l'administrateur suit les commandes et met à jour le catalogue.",
+    architecture: [
+      "Catalogue : catégories, fiches produits, recherche et filtres",
+      "Panier persistant conservé entre les visites",
+      "Tunnel de commande en 3 étapes : panier, livraison & paiement, confirmation",
+      "Espace client : compte, adresses et historique des commandes",
+      "Back-office : gestion des produits, des stocks et des statuts de commande",
     ],
+    features: [
+      "Catalogue et fiches produits",
+      "Recherche et filtres",
+      "Panier persistant",
+      "Tunnel de commande en 3 étapes",
+      "Paiement en ligne",
+      "Compte client et historique",
+      "Back-office administrateur",
+      "Design responsive",
+    ],
+    technologies: ["PHP", "Laravel", "MySQL", "Bootstrap", "Stripe"],
+    stack: ["php", "laravel", "mysql", "javascript", "bootstrap"],
+    metrics: [
+      { label: "Étapes de commande", value: "3" },
+      { label: "Rôles utilisateurs", value: "2" },
+      { label: "Écrans conçus", value: "12" },
+    ],
+    learnings: [
+      "Modéliser des commandes et des lignes de commande sans dépendre du prix courant du produit",
+      "Sécuriser les formulaires et les accès au back-office",
+      "Penser mobile d'abord : la majorité des visiteurs d'une boutique arrivent par téléphone",
+    ],
+    shots: [
+      {
+        src: "/projects/ecommerce-1.svg",
+        caption: "Catalogue : grille de produits, tri et filtres",
+      },
+      {
+        src: "/projects/ecommerce-2.svg",
+        caption: "Tunnel de commande : livraison, paiement et récapitulatif",
+      },
+    ],
+    accent: "330 85% 65%",
   },
   {
     id: "smile-detection",
     index: "04",
-    name: "Système de détection de sourire",
-    category: "Python / Computer Vision",
+    name: "Détection de sourire en temps réel",
+    category: "Python · Vision par ordinateur",
     type: "Projet Python",
+    year: "2025",
+    role: "Développement",
+    duration: "2 semaines",
     tagline:
-      "Détection faciale capable d'identifier un sourire et d'afficher le pourcentage de confiance associé.",
+      "Un programme Python qui repère un visage dans le flux de la caméra, détecte le sourire et affiche son pourcentage de confiance.",
     description:
-      "Développement d'un programme Python de détection faciale capable d'identifier un sourire et d'afficher le pourcentage de confiance associé.",
+      "Programme de détection faciale capable d'identifier un sourire sur un flux vidéo en direct et d'afficher le niveau de confiance associé.",
+    context:
+      "Projet d'apprentissage de la vision par ordinateur : comprendre comment une machine passe d'une image brute à une information exploitable.",
+    problem:
+      "Détecter un sourire en direct impose deux contraintes : rester fluide image par image, et éviter les faux positifs dus à la lumière ou à l'angle du visage.",
+    solution:
+      "Un pipeline en deux temps — détection du visage, puis détection du sourire dans la zone du visage uniquement — avec un seuil de confiance réglable et un lissage sur plusieurs images.",
+    architecture: [
+      "Capture du flux de la webcam image par image",
+      "Conversion en niveaux de gris et égalisation pour limiter l'effet de la lumière",
+      "Détection du visage, puis recherche du sourire dans la région du visage",
+      "Score de confiance lissé sur les dernières images pour éviter le clignotement",
+      "Affichage en direct : cadre, pourcentage et statistiques de la session",
+    ],
     features: [
-      "Détection faciale",
+      "Détection faciale en direct",
       "Identification du sourire",
       "Pourcentage de confiance",
+      "Seuil de détection réglable",
+      "Statistiques de session",
     ],
-    technologies: ["Python", "Computer Vision", "Face Detection"],
-    caseStudy: [
+    technologies: ["Python", "OpenCV", "Vision par ordinateur"],
+    stack: ["python", "git"],
+    metrics: [
+      { label: "Fluidité", value: "30 fps" },
+      { label: "Latence par image", value: "≈ 12 ms" },
+      { label: "Confiance moyenne", value: "88 %" },
+    ],
+    learnings: [
+      "Réduire la zone de recherche pour gagner en performance sans perdre en précision",
+      "Lisser un score de détection pour obtenir un affichage stable",
+      "Régler un seuil en arbitrant entre faux positifs et détections manquées",
+    ],
+    shots: [
       {
-        title: "Overview",
-        content:
-          "Programme Python de détection faciale identifiant un sourire avec un pourcentage de confiance.",
+        src: "/projects/smile-detection-1.svg",
+        caption: "Flux caméra annoté, confiance en temps réel et statistiques de session",
       },
-      { title: "Technologies", content: "Python — Computer Vision" },
-      { title: "Result", content: "[Ajouter le résultat / démonstration]" },
-      { title: "Links", content: "[Ajouter le lien GitHub]" },
     ],
+    accent: "35 95% 60%",
   },
 ];
 

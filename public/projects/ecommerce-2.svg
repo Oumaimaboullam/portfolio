@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+<defs><radialGradient id="g-f472b6"><stop offset="0%" stop-color="#f472b6" stop-opacity="0.9"/><stop offset="100%" stop-color="#f472b6" stop-opacity="0"/></radialGradient><radialGradient id="g-22d3ee"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0.95"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#0a0b12" />
+<rect x="0" y="0" width="1600" height="64" rx="0" fill="#12141f" />
+<line x1="0" y1="64" x2="1600" y2="64" stroke="#242838" />
+<circle cx="36" cy="32" r="7" fill="#f87171" opacity="0.8" />
+<circle cx="60" cy="32" r="7" fill="#f6b352" opacity="0.8" />
+<circle cx="84" cy="32" r="7" fill="#34d399" opacity="0.8" />
+<rect x="120" y="16" width="620" height="32" rx="16" fill="#0a0b12" stroke="#242838" />
+<circle cx="140" cy="32" r="4" fill="#f472b6" />
+<text x="156" y="38" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">boutique.ma/commande</text>
+<rect x="1380" y="16" width="88" height="32" rx="16" fill="#171a28" stroke="#242838" />
+<text x="1424" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="500" fill="#34d399" text-anchor="middle">Live</text>
+<circle cx="1522" cy="32" r="16" fill="#171a28" />
+<text x="1522" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#858ca6" text-anchor="middle">OB</text>
+<circle cx="1200" cy="300" r="420" fill="url(#g-f472b6)" opacity="0.12" />
+<text x="80" y="150" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="32" font-weight="700" fill="#e8eaf6" text-anchor="start">Finaliser la commande</text>
+<text x="80" y="186" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Étape 2 sur 3 · Livraison &amp; paiement</text>
+<circle cx="1180" cy="140" r="14" fill="#34d399" />
+<text x="1204" y="146" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Panier</text>
+<circle cx="1300" cy="140" r="14" fill="#f472b6" />
+<text x="1324" y="146" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#e8eaf6" text-anchor="start">Paiement</text>
+<circle cx="1430" cy="140" r="14" fill="#171a28" />
+<text x="1454" y="146" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Confirmation</text>
+<rect x="80" y="220" width="860" height="300" rx="18" fill="#12141f" stroke="#242838" />
+<text x="104" y="256" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Adresse de livraison</text>
+<circle cx="912" cy="250" r="3" fill="#f472b6" />
+<text x="110" y="290" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="500" fill="#858ca6" text-anchor="start">Nom complet</text>
+<rect x="110" y="302" width="380" height="48" rx="12" fill="#171a28" stroke="#242838" />
+<text x="128" y="332" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">Oumaima Boullam</text>
+<text x="530" y="290" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="500" fill="#858ca6" text-anchor="start">Téléphone</text>
+<rect x="530" y="302" width="380" height="48" rx="12" fill="#171a28" stroke="#242838" />
+<text x="548" y="332" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">+212 6 88 21 68 08</text>
+<text x="110" y="380" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="500" fill="#858ca6" text-anchor="start">Adresse</text>
+<rect x="110" y="392" width="380" height="48" rx="12" fill="#171a28" stroke="#242838" />
+<text x="128" y="422" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">12 rue Ibn Sina, Guéliz</text>
+<text x="530" y="380" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="500" fill="#858ca6" text-anchor="start">Ville</text>
+<rect x="530" y="392" width="380" height="48" rx="12" fill="#171a28" stroke="#242838" />
+<text x="548" y="422" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">Marrakech</text>
+<rect x="110" y="452" width="24" height="24" rx="6" fill="#f472b6" />
+<text x="148" y="470" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">Enregistrer cette adresse pour mes prochaines commandes</text>
+<rect x="80" y="546" width="860" height="300" rx="18" fill="#12141f" stroke="#242838" />
+<text x="104" y="582" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Paiement</text>
+<circle cx="912" cy="576" r="3" fill="#22d3ee" />
+<rect x="110" y="606" width="380" height="60" rx="12" fill="#171a28" stroke="#22d3ee" />
+<circle cx="140" cy="636" r="10" fill="#22d3ee" />
+<text x="164" y="642" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">Carte bancaire (Stripe)</text>
+<rect x="530" y="606" width="380" height="60" rx="12" fill="#171a28" stroke="#242838" />
+<circle cx="560" cy="636" r="10" fill="#858ca6" />
+<text x="584" y="642" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Paiement à la livraison</text>
+<text x="110" y="704" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="500" fill="#858ca6" text-anchor="start">Numéro de carte</text>
+<rect x="110" y="716" width="800" height="52" rx="12" fill="#171a28" stroke="#242838" />
+<text x="130" y="748" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">4242 4242 4242 4242</text>
+<text x="820" y="748" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">12 / 28   •••</text>
+<text x="110" y="812" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="400" fill="#858ca6" text-anchor="start">Paiement chiffré · aucune donnée bancaire stockée sur le serveur</text>
+<rect x="980" y="220" width="540" height="626" rx="18" fill="#12141f" stroke="#242838" />
+<text x="1004" y="256" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="start">Récapitulatif</text>
+<circle cx="1492" cy="250" r="3" fill="#f472b6" />
+<rect x="1010" y="274" width="480" height="64" rx="12" fill="#171a28" />
+<circle cx="1046" cy="306" r="18" fill="#f472b6" opacity="0.2" />
+<text x="1080" y="302" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">Sac cabas lin</text>
+<text x="1080" y="324" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="400" fill="#858ca6" text-anchor="start">Quantité 1</text>
+<text x="1466" y="310" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="600" fill="#e8eaf6" text-anchor="end">690 MAD</text>
+<rect x="1010" y="358" width="480" height="64" rx="12" fill="#171a28" />
+<circle cx="1046" cy="390" r="18" fill="#f472b6" opacity="0.2" />
+<text x="1080" y="386" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">Sneakers blanches</text>
+<text x="1080" y="408" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="400" fill="#858ca6" text-anchor="start">Quantité 1</text>
+<text x="1466" y="394" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="600" fill="#e8eaf6" text-anchor="end">712 MAD</text>
+<rect x="1010" y="442" width="480" height="64" rx="12" fill="#171a28" />
+<circle cx="1046" cy="474" r="18" fill="#f472b6" opacity="0.2" />
+<text x="1080" y="470" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="start">Écharpe laine</text>
+<text x="1080" y="492" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="400" fill="#858ca6" text-anchor="start">Quantité 1</text>
+<text x="1466" y="478" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="600" fill="#e8eaf6" text-anchor="end">320 MAD</text>
+<line x1="1010" y1="552" x2="1490" y2="552" stroke="#242838" />
+<text x="1010" y="592" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Sous-total</text>
+<text x="1490" y="592" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#e8eaf6" text-anchor="end">1 722 MAD</text>
+<text x="1010" y="628" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Livraison</text>
+<text x="1490" y="628" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#34d399" text-anchor="end">Offerte</text>
+<text x="1010" y="676" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="18" font-weight="700" fill="#e8eaf6" text-anchor="start">Total</text>
+<text x="1490" y="676" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="22" font-weight="700" fill="#f472b6" text-anchor="end">1 722 MAD</text>
+<rect x="1010" y="708" width="480" height="56" rx="28" fill="#f472b6" />
+<text x="1250" y="744" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="16" font-weight="700" fill="#0a0b12" text-anchor="middle">Payer maintenant</text>
+</svg>

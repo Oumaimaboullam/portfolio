@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+<defs><radialGradient id="g-7c5cff"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.9"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/></radialGradient><radialGradient id="g-22d3ee"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0.95"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#0a0b12" />
+<rect x="0" y="0" width="1600" height="64" rx="0" fill="#12141f" />
+<line x1="0" y1="64" x2="1600" y2="64" stroke="#242838" />
+<circle cx="36" cy="32" r="7" fill="#f87171" opacity="0.8" />
+<circle cx="60" cy="32" r="7" fill="#f6b352" opacity="0.8" />
+<circle cx="84" cy="32" r="7" fill="#34d399" opacity="0.8" />
+<rect x="120" y="16" width="620" height="32" rx="16" fill="#0a0b12" stroke="#242838" />
+<circle cx="140" cy="32" r="4" fill="#7c5cff" />
+<text x="156" y="38" xml:space="preserve" font-family='ui-monospace, SFMono-Regular, Menlo, monospace' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">codelens.app/abonnement</text>
+<rect x="1380" y="16" width="88" height="32" rx="16" fill="#171a28" stroke="#242838" />
+<text x="1424" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="500" fill="#34d399" text-anchor="middle">Live</text>
+<circle cx="1522" cy="32" r="16" fill="#171a28" />
+<text x="1522" y="37" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#858ca6" text-anchor="middle">OB</text>
+<circle cx="800" cy="120" r="520" fill="url(#g-7c5cff)" opacity="0.18" />
+<circle cx="1300" cy="800" r="420" fill="url(#g-22d3ee)" opacity="0.12" />
+<text x="800" y="160" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="40" font-weight="700" fill="#e8eaf6" text-anchor="middle">Choisissez votre formule</text>
+<text x="800" y="200" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="16" font-weight="400" fill="#858ca6" text-anchor="middle">Paiement sécurisé par Stripe · sans engagement</text>
+<rect x="200" y="285" width="400" height="430" rx="22" fill="#12141f" stroke="#242838" />
+<text x="232" y="349" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="18" font-weight="600" fill="#e8eaf6" text-anchor="start">Découverte</text>
+<text x="232" y="409" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="38" font-weight="700" fill="#e8eaf6" text-anchor="start">0 MAD</text>
+<text x="232" y="437" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">par mois</text>
+<circle cx="240" cy="490" r="4" fill="#858ca6" />
+<text x="258" y="495" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">3 analyses / mois</text>
+<circle cx="240" cy="530" r="4" fill="#858ca6" />
+<text x="258" y="535" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Rapport résumé</text>
+<circle cx="240" cy="570" r="4" fill="#858ca6" />
+<text x="258" y="575" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">1 langage</text>
+<rect x="232" y="631" width="336" height="52" rx="26" fill="#171a28" stroke="#242838" />
+<text x="400" y="664" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="middle">Choisir</text>
+<rect x="640" y="260" width="400" height="480" rx="22" fill="#12141f" stroke="#7c5cff" />
+<rect x="780" y="244" width="120" height="32" rx="16" fill="#7c5cff" />
+<text x="840" y="265" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="700" fill="#0a0b12" text-anchor="middle">POPULAIRE</text>
+<text x="672" y="324" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="18" font-weight="600" fill="#e8eaf6" text-anchor="start">Étudiant</text>
+<text x="672" y="384" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="38" font-weight="700" fill="#7c5cff" text-anchor="start">49 MAD</text>
+<text x="672" y="412" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">par mois</text>
+<circle cx="680" cy="465" r="4" fill="#7c5cff" />
+<text x="698" y="470" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Analyses illimitées</text>
+<circle cx="680" cy="505" r="4" fill="#7c5cff" />
+<text x="698" y="510" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Rapport détaillé</text>
+<circle cx="680" cy="545" r="4" fill="#7c5cff" />
+<text x="698" y="550" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Historique complet</text>
+<rect x="672" y="656" width="336" height="52" rx="26" fill="#7c5cff" />
+<text x="840" y="689" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#0a0b12" text-anchor="middle">Payer avec Stripe</text>
+<rect x="1080" y="285" width="400" height="430" rx="22" fill="#12141f" stroke="#242838" />
+<text x="1112" y="349" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="18" font-weight="600" fill="#e8eaf6" text-anchor="start">Établissement</text>
+<text x="1112" y="409" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="38" font-weight="700" fill="#e8eaf6" text-anchor="start">299 MAD</text>
+<text x="1112" y="437" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="13" font-weight="400" fill="#858ca6" text-anchor="start">par mois</text>
+<circle cx="1120" cy="490" r="4" fill="#22d3ee" />
+<text x="1138" y="495" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Comptes multiples</text>
+<circle cx="1120" cy="530" r="4" fill="#22d3ee" />
+<text x="1138" y="535" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Suivi par classe</text>
+<circle cx="1120" cy="570" r="4" fill="#22d3ee" />
+<text x="1138" y="575" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="400" fill="#858ca6" text-anchor="start">Export CSV</text>
+<rect x="1112" y="631" width="336" height="52" rx="26" fill="#171a28" stroke="#242838" />
+<text x="1280" y="664" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="600" fill="#e8eaf6" text-anchor="middle">Choisir</text>
+<rect x="200" y="800" width="1200" height="120" rx="18" fill="#12141f" stroke="#242838" />
+<text x="232" y="848" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="14" font-weight="500" fill="#858ca6" text-anchor="start">Facturation</text>
+<text x="232" y="884" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="15" font-weight="400" fill="#e8eaf6" text-anchor="start">Webhook Stripe → activation immédiate du crédit d'analyses</text>
+<rect x="1100" y="846" width="268" height="28" rx="14" fill="#34d3991f" />
+<text x="1234.0" y="865" xml:space="preserve" font-family='ui-sans-serif, Inter, Segoe UI, sans-serif' font-size="12" font-weight="600" fill="#34d399" text-anchor="middle">checkout.session.completed</text>
+</svg>
